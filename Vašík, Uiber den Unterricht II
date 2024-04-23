@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/Vault/P5/current/xml/tei/custom/schema/xsd/tei_all.xsd" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/Vault/P5/current/xml/tei/custom/schema/xsd/tei_all.xsd" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt xml:lang="deu">
+				<title>Über den Unterricht und heutige Bildungsart der Jugend, über das Schulwesen und dessen Verfassung samt einem Versuche eines systematischen Schulplanes</title>
+				<title xml:lang="ces">O výuce a souèasné výchovì mládeže, o školském systému a jeho konstituci, vèetnì pokusu o systematické školní osnovy</title>
+				<author ref="https://de.wikisource.org/wiki/BLK%C3%96:Lihnie,_Gotthard">Gotthard Lihnie</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>Digital edition</edition>
+				<respStmt>
+					<resp>Editor</resp>
+					<name>Miroslav Vašík</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Miroslav Vašík</name>
+				</respStmt>
+				<respStmt xml:id="MV">
+					<resp>notes</resp>
+					<name>Miroslav Vašík</name>
+				</respStmt>
+				<respStmt xml:id="author">
+					<resp>notes</resp>
+					<name>Gotthard Lihnie</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Manuscriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<bibl>
+						<idno>12 F 1415</idno>
+						<note>Stored in:
+							<seg type="country">Èeská republika</seg>
+							<seg type="settlement">Praha</seg>
+							<seg type="repository">Národní knihovna Èeské republiky</seg>
+							<seg type="ed">1</seg>
+						</note>
+					</bibl>
+				</listBibl>
+				<listWit>
+					<witness xml:id="A">
+						<abbr type="siglum">A</abbr> = 
+						<msDesc>
+							<msIdentifier>
+								<settlement>Praha</settlement>
+								<repository>Národní knihovna Èeské republiky</repository>
+								<idno>12 F 1415</idno>
+							</msIdentifier>
+							<additional>
+								<surrogates>
+									<ref target="https://new.manuscriptorium.com/hub/catalog/default/detail/single/manuscriptorium%7CNKCR__-NKCR__12_F_001415_2II4ZYD-cs?lang=en"/>
+								</surrogates>
+							</additional>
+						</msDesc>
+						<locus from="5" to="56"> 5-56</locus>
+					</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+		        <language ident="deu">German</language>
+		        <note resp="MV">PO DOKONÈENÍ EDITACE, MOŽNÁ BUDE TØEBA DOPLNIT </note>
+		    </langUsage>
+			<textClass>
+				<keywords>
+					<term>Prose</term>
+					<term>Education</term>
+					<term ref="https://plato.stanford.edu/entries/enlightenment/">Enlightenment</term>
+					<note resp="MV">PO DOKONÈENÍ EDITACE, MOŽNÁ BUDE TØEBA DOPLNIT </note>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	
+	<text xml:lang="deu">
+	
+		<front>
+			<pb ed="A" n="5"/>
+		    <titlePage>
+		    	<docTitle>
+		        	<titlePart type="main">
+		        		Uiber den Unterricht und heutige Bildungsart der Jugend, über das Schulwesen und dessen Verfassung samt einem Versuche eines systematischen Schulplanes /
+		        	</titlePart>
+		        	<titlePart type="responsibility">
+		        		mit Anmerkungen von Gotthard Lihnie Priester der frommen Schulen, und Director an der Hauptschule in der königlichen Neustadt Prag
+		        	</titlePart>
+		        </docTitle>
+			   <docImprint>
+			        <pubPlace>Prag</pubPlace>
+			        <publisher>bei Franz Gerzabeck <note resp="MV">NÌCO O NAKLADATELI</note></publisher>
+			        <docDate>1784.</docDate>
+			    </docImprint>
+			    </titlePage>
+			</front>
+		
+		<body>
+			<pb ed="1" n="6"/>
+			<div>
+			<p>Der Unterricht und die Bildung ist die erste, die wich-</lb>tigste, die wesentlichste Angelegenheit des Staates, die wür-</lb>digste und angelegenste Sorge des Fürsten.</lb> <note resp="author">Wielands </lb> goldener Spiege</lb><note resp="MV" ref="https://www.wikidata.org/wiki/Q1198757">Christoph Martin Wieland, Der goldne Spiegel oder die Könige von Scheschian</note></note></p>
+			</div>
+			
+			<pb ed="1" n="7"/>
+			<div>
+			<head>Vorerrinerung.</head>
+			</div>
+			
+		</body>
+	</text>
+</TEI>
